@@ -19,7 +19,7 @@ const HomeSection = () => {
                     Through a scalable tech-enabled process, we source premium Shea Nuts, process same into premium Shea Butter and deliver it to enterprises of all sizes worldwide. 
                 </Styled_HomeSection_Content_P_Two>
             </Styled_Second_Content_Container_Div>
-            <a className="scroll-button" href="#mySkills"><span></span></a>
+            <a className="scroll-button" href="#About"><span></span></a>
         </Styled_Section>
  );
 }
@@ -32,6 +32,7 @@ const Styled_Section = styled.section`
     grid-template-columns: repeat(10,10%);
     height: 80vh;
     width: 100%;
+    margin-top: 80px;
 `;
 const Styled_Overlay_Div = styled.div`
     position: absolute;
@@ -50,7 +51,7 @@ const Styled_HomeSection_Content_P = styled.p`
 
 const Styled_H2 = styled.h2`
     color: #fff;
-    font-size: 70px;
+    font-size: calc(2.6rem + 2vw);
     text-transform: uppercase;
     letter-spacing: 1px;
 `;
@@ -62,6 +63,6 @@ const Styled_Second_Content_Container_Div = styled.div`
     align-items: center;
 `;
 const Styled_HomeSection_Content_P_Two = styled.p`
-    font-size: 30px;
+    font-size: calc(1.8rem + .5vw);
     color: #fff;
 `;

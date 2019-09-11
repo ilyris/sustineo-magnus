@@ -31,6 +31,10 @@ export default Navigation;
 const Styled_Nav = styled.nav`
     background-color: #fff;
     padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
 `;
 const Styled_UL = styled.ul`
     display: flex;
@@ -44,10 +48,10 @@ const Styled_Li = styled.li`
 `;
 
 const Styled_Anchors = styled.a`
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #000;
 `;
 const Styled_h1 = styled.h1`
-    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Lobster', cursive;
 `;

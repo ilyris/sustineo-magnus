@@ -1,5 +1,9 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Cuprum|Lobster|Montserrat&display=swap');
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
 
 * {
   box-sizing: border-box;
