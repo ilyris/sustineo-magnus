@@ -16,6 +16,7 @@ html {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Cuprum', sans-serif;
 }
+
 /* image */
 #homeSection {
   background: url(./arch-bridge-clouds-814499.jpg);
@@ -23,6 +24,16 @@ h1,h2,h3,h4,h5,h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+#homeSection .one {
+  color: #008718;
+}
+
+#homeSection .two {
+  color: #b87a05;
+}
+#homeSection .three{
+  color: #513201;
 }
 #homeSection .scroll-button {
   width: 100%;

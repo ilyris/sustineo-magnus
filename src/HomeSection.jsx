@@ -9,9 +9,9 @@ const HomeSection = () => {
             <Styled_Overlay_Div></Styled_Overlay_Div>
             <Styled_Content_Container_Div>
                 <Styled_HomeSection_Content_P>
-                    <Styled_H2>SUSTINEO MAGNUS</Styled_H2>
-                    <Styled_H2>delivers Premium Shea Butter</Styled_H2>
-                    <Styled_H2>worldwide</Styled_H2>
+                    <Styled_H2 className="one">SUSTINEO MAGNUS</Styled_H2>
+                    <Styled_H2 className="two">delivers Premium Shea Butter</Styled_H2>
+                    <Styled_H2 className="three">worldwide</Styled_H2>
                 </Styled_HomeSection_Content_P>
             </Styled_Content_Container_Div>
             <Styled_Second_Content_Container_Div>
