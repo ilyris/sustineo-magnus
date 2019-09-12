@@ -92,7 +92,13 @@ h1,h2,h3,h4,h5,h6 {
   border: 2px solid #97730e;
   transition: all 0.2s ease-in-out;
 }
-
+#About p {
+  color: #000;
+}
+#About svg {
+  font-size: 10rem;
+  margin: 0 auto;
+}
 /* animations */
 @keyframes wheelScrolled {
   0% {

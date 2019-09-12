@@ -5,13 +5,18 @@ import './App.css';
 import Navigation from "./Navigation";
 import HomeSection from "./HomeSection";
 import About from "./About";
+import ProductInformation from './ProductInformation';
 
 const App = () => {
+  const aboutTitle = `Our Passion`;
+  const productInformationTitle = 'Our Product';
   return(
     <div>
       <Navigation />
       <HomeSection />
-      <About />
+      <ProductInformation title={productInformationTitle}/>
+      <About title={aboutTitle} />
+
     </div>
 
  );
