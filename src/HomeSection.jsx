@@ -19,7 +19,10 @@ const HomeSection = () => {
                     Through a scalable tech-enabled process, we source premium Shea Nuts, process same into premium Shea Butter and deliver it to enterprises of all sizes worldwide. 
                 </Styled_HomeSection_Content_P_Two>
             </Styled_Second_Content_Container_Div>
+            <div className="scroll-button-container">
             <a className="scroll-button" href="#About"><span></span></a>
+            </div>
+            
         </Styled_Section>
  );
 }
@@ -27,12 +30,12 @@ const HomeSection = () => {
 export default HomeSection;
 
 const Styled_Section = styled.section`
-    display: grid;
-    grid-template-rows: repeat(6,1fr);
-    grid-template-columns: repeat(10,10%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
     height: 80vh;
     width: 100%;
-    margin-top: 80px;
+    margin: 100px auto 0 auto;
 `;
 const Styled_Overlay_Div = styled.div`
     position: absolute;
@@ -42,8 +45,8 @@ const Styled_Overlay_Div = styled.div`
 `;
 const Styled_Content_Container_Div = styled.div`
     z-index: 10;
-    grid-column: 2/8;
-    grid-row: 2/3;
+    width: 80%;
+    margin: 200px auto 100px auto;
 `;
 const Styled_HomeSection_Content_P = styled.p`
 
@@ -57,12 +60,12 @@ const Styled_H2 = styled.h2`
 `;
 const Styled_Second_Content_Container_Div = styled.div`
     z-index: 10;
-    grid-column: 2/7;
-    grid-row: 3/5;
     display: flex;
     align-items: center;
 `;
 const Styled_HomeSection_Content_P_Two = styled.p`
     font-size: calc(1.8rem + .5vw);
     color: #fff;
+    width: 80%;
+    margin: 0 auto;
 `;

@@ -18,7 +18,6 @@ const ProductInformation = ({title}) => {
 export default ProductInformation;
 
 const ContentContainer = S.section`
-    padding: 20px;
     background-color: #b87a05;
 `;
 const ContentTitle = S.h2`
@@ -26,6 +25,6 @@ const ContentTitle = S.h2`
     font-size: 7rem;
     color: #fff;
     text-align: center;
-    margin-top: 75px;
+    padding-top: 75px;
     font-weight: 400;
 `;

@@ -18,15 +18,15 @@ const S_Div = S.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    margin: 75px auto 0 auto;
+    width: 80%;
+    margin: 75px auto 75px auto;
 `;
 
 const S_P = S.p`
     font-size: 2.4rem;
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 100%;
     margin: 25px auto;
     color: #fff;
 `;

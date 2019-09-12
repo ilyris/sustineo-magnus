@@ -13,7 +13,7 @@ const Navigation = () => {
                 <Styled_Anchors href="#"> About</Styled_Anchors>
             </Styled_Li>
             <Styled_Li>
-                <Styled_h1> Unrefined Shea Butter for Enterprises</Styled_h1>
+                <Styled_Anchors href="#"> Unrefined Shea Butter</Styled_Anchors>
             </Styled_Li>
             <Styled_Li>
                 <Styled_Anchors href="#"> Contact</Styled_Anchors>

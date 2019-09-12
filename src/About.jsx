@@ -20,15 +20,15 @@ const About = ({title}) => {
             <InformationCard title={"Driven"} icon={faFire} textContent={cardInformationOne}/>
             <InformationCard title={"Organic"} icon={faTree}textContent={cardInformationTwo}/>
             <InformationCard title={"Traditional"} icon={faCogs} textContent={cardInformationThree}/>
-            <AdditionalInformation textContentOne={textContentOne} textContentTwo={textContentTwo}/>
         </S_Div>
+        <AdditionalInformation textContentOne={textContentOne} textContentTwo={textContentTwo}/>
         </S_Section>
     );
 }
 export default About;
 
 const S_Section = S.section`
-    padding: 20px;
+
 `;
 const S_H2_Title = S.h2`
     width: 100%;
@@ -47,5 +47,7 @@ const S_P = S.p`
 const S_Div = S.div`
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 `;
